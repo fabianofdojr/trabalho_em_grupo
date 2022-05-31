@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url(../image/velozesefuriosos10-11.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.elenco {
+  display: flex;
+  justify-content: space-around;
+  font-family: fantasy;
+  font-size: 35px;
+  color: #fff;
+  padding-top: 15px;
+  width: 100%;
+}
+
+.data_lancamento {
+  position: absolute;
+  left: 50%;
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(93, 148, 219);
+  transform: translate(-50%, -50%);
+  animation: data_lancamento 9s linear infinite;
+}
+
+.conteiner {
+  position: relative;
+  height: 100vh;
+}
+
+.logo {
+  position: absolute;
+  height: 380px;
+  top: 35%;
+  left: 25%;
+  animation: logo 3s ease-in forwards;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes logo {
+  from {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  to {
+    transform: scale(0.9) translateY(-50%, -50%);
+    opacity: 1;
+  }
+}
+
+@keyframes data_lancamento {
+  0% {
+    top: 850px;
+  }
+  10% {
+    top: 830px;
+  }
+  20% {
+    top: 850px;
+  }
+  30% {
+    top: 830px;
+  }
+  40% {
+    top: 850px;
+  }
+  50% {
+    top: 830px;
+  }
+  60% {
+    top: 850px;
+  }
+  70% {
+    top: 830px;
+  }
+  80% {
+    top: 850px;
+  }
+  90% {
+    top: 830px;
+  }
+  100% {
+    top: 850px;
+  }
+}
+
+/*elenco*/
+
+.sung {
+  color: rgb(0, 0, 0);
+}
+
+.nathalie {
+  color: rgb(26, 97, 8);
+}
+
+.jordana {
+  color: #d80909;
+}
+
+.ludacris {
+  color: rgb(255, 255, 255);
+}
+
+.tyrese {
+  color: rgb(202, 202, 202);
+}
+
+.michelle {
+  color: rgb(255, 217, 0);
+}
+
+.vin {
+  color: rgb(14, 27, 212);
+}
